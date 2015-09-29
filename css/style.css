@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/gotham.eot?#iefix") format("embedded-opentype"), url("fonts/gotham.woff") format("woff"), url("fonts/gotham.ttf") format("truetype"), url("fonts/gotham.svg#Gotham") format("svg"); }
+
+
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	font-family: Gotham, Arial, sans-serif;
+}
+
+/* estilo bloques generales*/
+
+.bloque {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.doble {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 200vh;
+}
+
+
+/* estilos de bloques*/
+#intro{
+	background-color: #00a9c1;
+}
+#grafico{
+	background-color: #e7e6e4;
+
+}
+#testimonios{
+	background-color: #3b3a3a;
+
+}
+#emociones{
+	background-color: #e7e6e4;
+
+}
+#footer{
+	background-color: #7d1d5b;
+
+}
+
+.cajaTexto{
+	.cita{
+
+	}
+	.autor{
+		
+	}
+}
